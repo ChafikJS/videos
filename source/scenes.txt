@@ -1,0 +1,820 @@
+# SOURCE OF TRUTH for narration + shot list. Run: python3 build.py
+# Block header: "## <story number> | <section title>"   (story 0 = intro / transitions / outro)
+# N: narration paragraph (repeatable)   P: pause in seconds after the scene (default 1)
+# V visual | A camera angle | M camera movement | L lighting | T atmosphere | X sound effects
+# I: image prompt ("CCTV:" prefix switches to the security-camera style)   D: video prompt
+# {NAME} placeholders are character / location anchors defined in build.py
+
+## 0 | Cold Open
+N: At three in the morning, this country belongs to a different set of people. Cashiers. Nurses. Guards. Drivers. People who work while everyone they know is asleep. Most nights, nothing happens. But ask anyone who's worked nights long enough, and they'll tell you about the one shift they don't talk about. Tonight, you're going to hear five of them.
+P: 2
+V: Montage of empty night workplaces: a lit gas station in black desert, a hospital corridor, a warehouse aisle, a hotel lobby, headlights on a mountain road. No people.
+A: Wide establishing shots, eye level
+M: Very slow push-in on each, 4-5 seconds per image
+L: Single practical light source in each frame surrounded by darkness
+T: Lonely, still, expectant
+X: Low sub-bass drone, distant highway hum, one fluorescent tube flicker
+I: wide establishing shot of a small isolated gas station glowing under fluorescent canopy lights in the middle of pitch-black desert at 3 AM, empty two-lane highway, no people, no cars
+D: Slow push-in toward a lone gas station glowing in total desert darkness; canopy lights flicker faintly, dust drifts through the light.
+
+## 0 | Title Card
+P: 6
+V: Title "5 DISTURBING STORIES FROM NIGHT SHIFT WORKERS" in thin white serif type over a black frame with a wall clock reading 3:00 faintly visible. Small line beneath: "A work of fiction."
+A: Static frontal
+M: 2% slow zoom, title fades in letter by letter
+L: Near black, faint cold top light on the clock
+T: Ominous calm
+X: Single deep piano note, clock tick, drone swells then cuts
+I: old round institutional wall clock on a dark wall reading three o'clock, barely lit from above, heavy shadow, empty negative space for a title
+D: Static shot of a wall clock in darkness, the second hand ticking; faint flicker of light across its glass.
+
+## 0 | Introduction
+N: The stories you're about to hear are works of fiction. The people aren't real, and neither are the places. But the hours are. The empty parking lots are. And that feeling, when you're the only one awake in a building and something down the hall makes a sound it shouldn't... that's real, too.
+N: So turn the lights down. Get comfortable. And let's start in West Texas, at a gas station forty miles from the nearest town.
+P: 3
+V: An empty employee break room at night: vending machine glow, a single chair pulled out, a time clock on the wall. Then cut to an aerial view of a dark Texas highway with one point of light far ahead.
+A: Wide interior, then high aerial
+M: Slow lateral dolly, then slow aerial drift forward
+L: Vending machine glow, cold blue moonlight for the aerial
+T: Quiet invitation into the dark
+X: Vending machine compressor hum, wind, drone bed
+I: empty employee break room at night lit only by a vending machine, one chair pulled away from a table, punch time clock on the wall, nobody present
+D: Slow sideways dolly through an empty break room lit by a humming vending machine; nothing moves except a slight flicker of the light.
+
+## 1 | The Gas Station
+N: The first time I saw him, he was standing in aisle three, facing the coolers. I saw him on the security monitor. When I looked up at the actual aisle, there was nobody there.
+P: 2
+V: A grid of security feeds on an old monitor. In one square, a man in a gray sweatshirt stands with his back to the camera. Rack focus to the real aisle beyond the counter: empty.
+A: Over-the-shoulder close-up on the monitor, then eye-level view of the aisle
+M: Slow rack focus from screen to aisle
+L: Monitor glow on the foreground, harsh fluorescent overheads in the store
+T: Immediate wrongness
+X: Fluorescent buzz, cooler compressors, a faint high tone as focus shifts
+I: close-up of an old CRT security monitor behind a gas station counter showing a grid of sixteen camera feeds, in one feed {FIGURE} stands in a store aisle facing glass cooler doors, the real empty aisle visible out of focus in the background
+D: Rack focus from a security monitor showing a motionless man in a gray sweatshirt to the real store aisle behind it, which is completely empty.
+
+## 1 | The Gas Station
+N: My name's Danny. I was twenty-six, and I'd been working overnights at Lone Mesa Fuel for about eight months. It's a four-pump station on a two-lane highway in West Texas, forty miles from anything in either direction. Ten at night to six in the morning, by myself. On a busy night I'd see fifteen customers. Truckers, mostly. Oil field guys. The occasional family that had badly misjudged a road trip.
+V: Exterior of the station at night, then Danny behind the counter, leaning on his elbows, staring out the window at an empty highway.
+A: Extreme wide exterior, then medium shot through the front window
+M: Slow crane down from the canopy, then slow push-in on Danny
+L: Greenish fluorescent canopy light, sodium-orange lot lamp, black sky
+T: Isolation, boredom
+X: Wind, canopy lights buzzing, a semi passing far away, door chime
+I: {STATION}, extreme wide shot at night, {DANNY} visible small through the front window behind the register, empty highway vanishing into darkness
+D: Slow crane down past the buzzing canopy of a lonely Texas gas station toward the window, where a tired young clerk stands alone at the register.
+
+## 1 | The Gas Station
+N: The job is mostly waiting. You mop. You restock the cooler. You make coffee at two that nobody drinks until four. And you watch the monitor behind the register, because there's nothing else to look at. Sixteen little squares. Pumps, lot, front door, aisles, back hallway, register.
+N: So that first night, I did what anybody would do. I walked over to aisle three. Empty. Checked the restroom. Empty. When I got back to the counter, the square was empty too. I told myself I was tired, and I mostly believed it.
+V: Routine inserts: mop on wet tile, cooler door fogging, coffee dripping. Then Danny walking slowly down aisle three, checking a restroom door, returning to an empty monitor square.
+A: Low-angle inserts, then following shot from behind Danny at shoulder height
+M: Handheld-steady follow down the aisle, slow pan back to the monitor
+L: Flat cold fluorescents, glowing cooler doors
+T: Routine sliding into unease
+X: Mop slosh, coffee drip, sneakers on tile, restroom door creak
+I: {DANNY} walking cautiously down an empty convenience store aisle toward glowing glass cooler doors, seen from behind, wet floor reflecting fluorescent lights
+D: Follow a young clerk from behind as he walks slowly down an empty store aisle toward the coolers and looks around; nobody is there.
+
+## 1 | The Gas Station
+N: The next night he was back. Same spot, same time, a little after two. Gray sweatshirt, hood down, back to the camera. Standing completely still, the way nobody stands in a store. And this time I didn't walk over. I just watched the screen, and then looked at the aisle, and then looked at the screen. He was only in one of them.
+P: 2
+V: Full-frame security feed of aisle three with the figure standing motionless. Intercut with Danny's eyes moving between screen and aisle.
+A: High-angle CCTV view; extreme close-up on Danny's eyes
+M: Locked-off CCTV; slight push on the eyes
+L: Washed-out CCTV exposure; monitor glow on Danny's face
+T: Frozen dread
+X: Buzz drops out to near silence, low pulse, clock tick
+I: CCTV: high-angle view of a convenience store aisle at night, {FIGURE} standing perfectly still facing the cooler doors, otherwise empty store
+D: Static security camera view of a store aisle; a man in a gray sweatshirt stands unnaturally still with his back to the lens while the image flickers slightly.
+
+## 1 | The Gas Station
+N: I told my manager, Gail, and she laughed. She said the camera system was fifteen years old, and when the hard drive gets full it does this thing where old footage bleeds through. Ghost frames, the repair guy called it. Some customer from a week ago, stuck in the machine. She even showed me one, a pickup at pump two that wasn't there. It made sense. Honestly, I was relieved.
+V: Daylight shift change. Gail, a woman in her fifties, taps the dusty DVR box under the counter and points at a feed showing a pickup at an empty pump. Danny exhales and half-smiles.
+A: Two-shot at the counter, insert on the DVR
+M: Gentle handheld, static insert
+L: Warm early-morning sunlight through dusty windows, the only warm scene in the story
+T: Relief, false safety
+X: Morning birds, register drawer, DVR fan whirring, music thins out
+I: early morning inside a rural gas station, a no-nonsense woman manager in her fifties with a gray ponytail tapping an old dusty DVR recorder under the counter while {DANNY} watches, warm sunlight through the windows
+D: A middle-aged manager taps an old DVR box and shrugs, laughing lightly, while a young clerk nods with visible relief in warm morning light.
+
+## 1 | The Gas Station
+N: Then a ghost frame turned around. Not all the way. On the third night, I watched his head tilt, like he was listening to something. And on the fourth night, he wasn't in aisle three anymore. He was in aisle two.
+N: That's when I started keeping track. Aisle two. Then aisle one. Then the end of the candy rack, eight feet from the register. Every night, one camera closer. Always with his back to the lens. I never once saw his face.
+P: 2
+V: Sequence of security feeds: the figure's head tilting slightly; then the same figure in a different square each cut, each one nearer the register camera.
+A: CCTV high angles, progressively closer cameras
+M: Locked-off; hard cuts between cameras timed to the narration
+L: Flat CCTV light, one flickering tube in the background
+T: Slow, methodical approach
+X: Camera-switch clicks, a low tone rising a half-step with each cut
+I: CCTV: high-angle view near a candy rack close to a gas station register at night, {FIGURE} standing still only a few feet from the empty counter
+D: Security feed: a motionless man in a gray sweatshirt slowly tilts his head to one side as if listening; image grain shimmers.
+
+## 1 | The Gas Station
+N: Around then, a trucker came in for coffee. Older guy, regular, never said much. He paid, and while I was counting his change he nodded at the monitor behind me and said, "Your buddy's been standing there a while."
+N: I turned around. Camera nine, the one aimed at the counter. There I was. There was the trucker. And there was the man in the gray sweatshirt, about three feet behind my left shoulder. I looked. There was nothing behind me but cigarettes. The trucker left his change on the counter. He didn't come back.
+P: 2.5
+V: A weathered trucker at the counter nods past Danny. Danny turns: on the monitor, three figures at the counter. Reverse angle: only two men and a wall of cigarettes. Coins left spinning on the counter.
+A: Over-the-shoulder on the trucker, monitor insert, then wide profile of the counter
+M: Slow push-in on the monitor, whip-free slow pan to the empty space
+L: Fluorescent top light, deep shadow behind the counter
+T: Confirmation from a stranger; the fear becomes real
+X: Coffee pour, coins on laminate, door chime, diesel engine pulling away
+I: a weathered older trucker in a denim jacket and cap standing at a gas station counter holding a coffee, nodding toward something behind {DANNY}, wall of cigarette packs behind the clerk, tense expression
+D: An older trucker at a gas station counter nods toward the space behind the clerk; the clerk slowly turns to look and finds only a wall of cigarettes.
+
+## 1 | The Gas Station
+N: That night I finally did what I should have done first. I went into the recordings. And he wasn't in any of them. Every night I'd watched him, the saved footage showed an empty aisle. He was only ever there live.
+N: But at the bottom of the list, there was one more file. It was dated the fourteenth. Three days from then. 2:14 a.m. Already recorded. I played it. In that footage, the counter was empty. No clerk. Just him, in aisle three.
+P: 2.5
+V: Danny crouched at the DVR, scrolling a file list. Empty-aisle playback. The cursor lands on a final file. Playback: empty counter, figure in aisle three.
+A: Close-up on Danny's face lit from below, screen inserts
+M: Slow push-in on his face as he reads
+L: Monitor light only, store lights dimmed behind him
+T: Discovery, vertigo
+X: Mouse clicks, hard drive chatter, heartbeat-like low thump
+I: {DANNY} crouched close to a security monitor in a dark gas station, face lit from below by the screen, expression of dawning fear, file list reflected in his eyes
+D: Slow push-in on a young clerk's face lit by a monitor as he scrolls, stops, and goes completely still.
+
+## 1 | The Gas Station
+N: I'm not a brave person. I quit the next morning, the eleventh. Gail was annoyed. She hired a kid named Tyler to cover, and I felt bad enough that I almost warned him. Almost. But what was I going to say?
+N: On the fifteenth, a sheriff's deputy called me. The station had been found that morning with the lights on and the doors unlocked. Register full. Tyler's car still parked out back. No Tyler. They wanted me to come look at the footage, because I knew the system.
+V: Danny's name tag left on the counter. Later: the station at dawn with a sheriff's cruiser out front, door propped open, a lone sedan parked behind the building.
+A: Insert close-up, then wide exterior
+M: Static insert; slow lateral dolly across the lot
+L: Flat gray pre-dawn light, cruiser light bar off
+T: Aftermath, guilt
+X: Wind, police radio chatter, door chime looping as the door swings
+I: {STATION} at gray dawn, a county sheriff's patrol SUV parked out front, store door propped open with all lights still on, a lone small sedan parked behind the building, nobody visible
+D: Slow dolly across an empty gas station lot at dawn; a sheriff's SUV sits out front and the store door swings slightly in the wind.
+
+## 1 | The Gas Station
+N: I drove out there. I stood behind that counter one more time, and the deputy played the recording from the fourteenth. 2:14 a.m. The counter was empty. And in aisle three, there was a man in a gray sweatshirt, standing with his back to the camera.
+N: The deputy asked if I recognized him. I said no. Then, on the screen, for the first time, the man turned around and looked straight up into the lens.
+P: 3
+V: Danny, now in a gray sweatshirt, beside a deputy at the monitor. On the feed the figure slowly turns and raises his face to the camera. Cut before the face is fully clear.
+A: Two-shot from behind, then full-frame CCTV
+M: Slow push between their shoulders into the screen
+L: Daylight leaking in, monitor still the brightest thing
+T: The moment before knowing
+X: All ambience fades, single sustained string note, VCR-like tracking hiss
+I: CCTV: high-angle view of a convenience store aisle at night, a man in a gray hooded sweatshirt caught mid-turn, beginning to look up toward the camera, face blurred by motion and low resolution
+D: Security feed: a man in a gray sweatshirt who has been standing still slowly turns around and lifts his head toward the camera.
+
+## 1 | The Gas Station
+N: It was me. Same face. Same haircut. Same gray sweatshirt I was wearing right then, in that room. The one I'd bought two days earlier.
+N: The deputy looked at the screen. Then he looked at me. And I still don't have an answer for the question he asked next. He said, "Son... where were you on the fourteenth?"
+N: I was home. I was asleep. I think.
+P: 4
+V: Match cut: Danny's face on the CCTV feed staring up; Danny's real face staring at the screen. The deputy's eyes move from one to the other. Hold on Danny.
+A: Extreme close-up on the screen, then matching close-up on Danny, slightly low angle
+M: Slow push-in on Danny, ending on his eyes
+L: Half his face in monitor light, half in shadow
+T: Identity horror, unresolved
+X: Silence, then low drone returns; fluorescent tube pops and dies
+I: close-up of {DANNY} now wearing a gray hooded sweatshirt, staring in horror at a security monitor off-frame, a sheriff's deputy out of focus beside him turning to look at him, half his face lit by the screen
+D: Slow push-in on a young man in a gray sweatshirt staring at a screen in disbelief while a deputy beside him slowly turns his head to look at him.
+
+## 0 | Transition
+N: Danny never went back to Lone Mesa. The station's still open, by the way. They're hiring.
+N: The second story comes from a nurse in western Pennsylvania, on the kind of floor where the quiet is supposed to be a good sign.
+P: 3
+V: A "HELP WANTED - NIGHTS" sign taped in the station window. Dissolve to a hospital on a hill above a dark, snowy coal town.
+A: Close-up through glass, then wide establishing
+M: Slow pull-back; slow push toward the hospital
+L: Canopy fluorescents; cold blue snow light, a few lit windows
+T: Dry dread, change of place
+X: Tape creaking in wind, crossfade to distant train horn and heater hum
+I: wide night shot of {HOSP} seen from outside on a hill above a small snowy Pennsylvania coal town, only a handful of windows lit, one wing completely dark
+D: Slow push-in on an aging hospital at night in light snowfall; one whole wing of the building is dark.
+
+## 2 | The Hospital
+N: The call light for room 412 came on at 3:17 in the morning. Room 412 hasn't had a patient in it since 2009. It doesn't even have a bed.
+P: 2
+V: A wall-mounted nurse call panel. Among dark indicators, one amber light labeled 412 blinks on. A digital clock beside it reads 3:17.
+A: Close-up, slightly off-axis
+M: Very slow push-in
+L: Dim station light, amber LED the only color
+T: Small, clinical wrongness
+X: Soft two-tone call chime repeating, HVAC hum
+I: close-up of an old hospital nurse call annunciator panel on a wall at night, rows of small unlit indicator lights and one single glowing amber light, dim nurses' station
+D: Slow push-in on a nurse call panel as one amber indicator light begins to blink in the dark.
+
+## 2 | The Hospital
+N: I'm Renee. I've been a nurse for fourteen years, the last six on night shift at St. Brennan Memorial. It's a small hospital in an old coal town in Pennsylvania, and it's been shrinking for as long as I've worked there. The fourth floor used to have forty beds. Now we staff twelve. The whole east wing is closed off behind a set of fire doors with a chain through the handles.
+N: Nights on a floor like that are quiet. It was me, one other nurse named Deb, and an aide. Seven patients. You do your rounds, you chart, you listen. After enough years you know every sound that building makes.
+V: Renee charting at the nurses' station. A long corridor with every other light off. At its end, double fire doors with a chain and padlock, darkness behind the wire-glass windows.
+A: Medium on Renee, then long symmetrical corridor shot
+M: Slow dolly down the corridor toward the chained doors
+L: Pool of warm desk light, cold dim corridor, black beyond the doors
+T: Institutional quiet, a boundary
+X: Keyboard, distant IV pump beep, rubber soles, building ticking
+I: {RENEE} sitting at a nurses' station computer at night in {HOSP}, long dim corridor behind her ending in chained double fire doors with dark wire-glass windows
+D: Slow dolly down a dim hospital corridor toward double fire doors secured with a chain; beyond their small windows is total darkness.
+
+## 2 | The Hospital
+N: So when the board at the nurses' station chimed, I looked up expecting 406 or 409. It said 412. East wing. I figured it was a glitch, and I pressed cancel.
+N: It came back four minutes later. I cancelled it again. It kept coming, all night, every few minutes, and I kept silencing it, because I had real patients and real work. Around five, it stopped.
+V: Renee's finger pressing a cancel button; the light goes out. Time-lapse feel: clock jumps, light returns, finger presses again, repeated.
+A: Insert close-ups, profile of Renee glancing up, annoyed
+M: Static inserts cut rhythmically
+L: Amber light on her fingertip, dim blue surround
+T: Irritation, repetition that will matter later
+X: Call chime, button click, chime, click; each cycle slightly louder
+I: extreme close-up of a nurse's finger pressing a cancel button on a hospital call panel beside a glowing amber light, shallow depth of field
+D: A finger presses a button on a hospital call panel and an amber light goes dark; a moment later it lights again.
+
+## 2 | The Hospital
+N: In the morning I put in a ticket. A maintenance guy named Walt came up, and he wasn't even surprised. He said the call system in the east wing was never disconnected, just abandoned, and when the old boiler cycles on, the pipes shake the wiring in the walls. Happens every winter. He checked the log for me. The boiler had kicked on at 3:15. Two minutes before the first call. That was good enough for me.
+V: Walt, a gray-haired maintenance man, at an open wall panel of old wiring, then a basement boiler room with a huge rumbling boiler and a clipboard log.
+A: Medium two-shot, then wide low angle of the boiler
+M: Slow tilt up the boiler
+L: Morning window light upstairs; orange pilot glow and steam below
+T: Rational, mechanical reassurance
+X: Pipes knocking, boiler roar, clipboard pages
+I: basement boiler room of an old hospital, huge aging cast-iron boiler with rattling pipes and steam, a gray-haired maintenance man in a work shirt holding a clipboard, orange glow from the burner window
+D: Slow tilt up a massive old hospital boiler as its pipes shudder and steam leaks from a valve.
+
+## 2 | The Hospital
+N: The next night, at 3:17, the light came on again. And this time, before I could cancel it, the intercom opened. That's what happens when a patient holds the button down. You hear the room.
+N: I heard breathing. Slow, and a little wet, like someone who'd been lying flat too long. Then a man's voice, very quiet, very polite. He said, "Hello? Is someone coming?"
+N: Deb heard it too. She's the one who called security.
+P: 2.5
+V: The intercom speaker grille on the station console, a small green "open" light. Renee and Deb motionless, staring at it. Deb slowly reaches for the phone.
+A: Extreme close-up on the speaker grille, then two-shot
+M: Imperceptibly slow push-in on the grille
+L: Console LEDs, faces underlit
+T: Listening horror
+X: Intercom static, slow wet breathing, a faint polite male voice (mix low, slightly distorted), phone handset lifted
+I: extreme close-up of an old hospital intercom speaker grille on a nurses' station console with a small green light lit, {RENEE} and another nurse out of focus behind it frozen and staring
+D: Slow push-in on an intercom speaker grille while two nurses in the background stand frozen, listening.
+
+## 2 | The Hospital
+N: A guard named Curtis unlocked the chain, and the three of us walked down the east wing with a flashlight. I could hear our footsteps, and then, a second later, I could hear them again from farther down the hall. Curtis said it was an echo. Nobody argued.
+N: Room 412 was a bare room. No bed. No chair. Dust on the floor so thick we left tracks. But the call cord was still plugged into the wall, hanging there. And the button on the end of it was warm.
+P: 2
+V: Chain sliding off the doors. Three figures and one flashlight beam in a derelict corridor: peeling paint, stacked bed frames. An empty room; a call cord hanging from a wall plate, swaying slightly.
+A: Behind the group, low; then close-up on the cord
+M: Slow follow, flashlight leading; slow push-in on the cord
+L: Single flashlight beam, dust in the air, moonlight through dirty windows
+T: Trespass into a dead space
+X: Chain rattle, three sets of footsteps then a delayed fourth pattern, dust settling, faint electrical tick
+I: abandoned hospital room at night seen by flashlight, completely empty, thick dust on a linoleum floor with fresh footprints, an old nurse call cord with a red button hanging from a wall plate, peeling paint
+D: A flashlight beam sweeps an empty abandoned hospital room and settles on a call cord hanging from the wall, gently swaying.
+
+## 2 | The Hospital
+N: I could've lived with that. What I couldn't live with was what I found when we got back to the station. There was a new patient on my census. Room 412. Admitted that night. Vitals charted every hour. And every entry was signed with my login.
+N: The name on the chart was Halloran, Francis. Age seventy-one. I knew that name. Mr. Halloran was in 406, thirty feet from where I was sitting. Pneumonia, getting better, going home Friday. I went and checked on him. He was asleep, breathing fine.
+V: Renee at the computer, the screen reflected in her eyes. Then a doorway view into room 406: an elderly man asleep, monitor tracing a steady rhythm.
+A: Close-up on Renee, then doorway medium shot
+M: Slow push-in on her; static doorway hold
+L: Screen light on her face; soft bedside lamp in 406
+T: The uncanny becomes personal
+X: Mouse click, monitor beeping steadily, oxygen hiss
+I: view from a hospital room doorway at night of a 71-year-old white man with thin white hair sleeping peacefully in a hospital bed, heart monitor glowing beside him, {RENEE} standing in the doorway silhouetted
+D: Static doorway shot of an elderly man sleeping in a hospital bed, chest rising and falling, a nurse's silhouette watching from the door.
+
+## 2 | The Hospital
+N: I scrolled to the bottom of the chart for 412. The last line was a time of death. 3:17 a.m. Dated the following night.
+N: I reported it. IT said it was a duplicate record, a test file somebody forgot to delete. They removed it. I asked to stay with Mr. Halloran the next night anyway, and my supervisor said that was fine.
+P: 2
+V: Renee's hand frozen on the mouse. Her face. Then daytime: an IT tech at the same computer shrugging, deleting something.
+A: Insert on hand, tight close-up on face, over-the-shoulder
+M: Static; micro push-in on her eyes
+L: Night screen glow, then flat overcast daylight
+T: A deadline has been set
+X: Scroll wheel, sudden silence on "time of death", daytime hospital bustle muffled
+I: tight close-up of {RENEE} staring at a computer screen at night with a stunned expression, hand over her mouth, blue screen light on her face
+D: Tight close-up of a nurse reading a screen; her hand slowly rises to cover her mouth.
+
+## 2 | The Hospital
+N: Here's the part I think about. At eleven that night, a pipe burst over the west hall. Water through the ceiling in three rooms. The house supervisor made a decision: open the east wing, roll beds down there, just until morning. I was downstairs getting linens when they moved him. Nobody told me which room.
+V: Water pouring through ceiling tiles into a corridor, staff rolling beds through the unchained fire doors into the east wing. Renee far below in a basement linen room, unaware.
+A: Wide corridor chaos, then wide lonely basement shot
+M: Handheld urgency upstairs, locked-off calm downstairs
+L: Flickering wet fluorescents; single bulb in the linen room
+T: Fate arranging itself
+X: Rushing water, bed wheels, shouted instructions muffled, then only a dryer tumbling
+I: hospital corridor at night with water pouring through collapsed ceiling tiles, staff in scrubs urgently rolling a hospital bed through open double fire doors into a dark unused wing
+D: Water streams from a hospital ceiling as staff hurriedly push a bed through double doors into a dark wing; lights flicker.
+
+## 2 | The Hospital
+N: I got back to the floor at 3:10. I ran. The chain was off the doors, and the hall lights were on in the east wing for the first time in years. He was in 412. The call cord was in his hand. He'd been gone for a few minutes. The monitor they'd wheeled in with him had never been plugged in.
+N: They called it at 3:17, because that's when the doctor got there.
+P: 3
+V: Renee running down the now-lit east wing. Doorway of 412: a bed, a still hand holding the call cord, a dark monitor with its plug coiled on the floor.
+A: Tracking behind Renee, then low close-up on the hand
+M: Fast tracking shot that decelerates to stillness at the door
+L: Harsh newly-lit fluorescents, several tubes dead or flickering
+T: Too late
+X: Running footsteps, breath, then nothing; a wall clock ticking to 3:17
+I: close-up of an elderly man's motionless hand resting on a hospital blanket holding a nurse call cord with a red button, unplugged heart monitor dark in the background, harsh fluorescent light, respectful and non-graphic
+D: Camera slowly settles on an elderly hand lying still on a blanket, holding a call button; an unplugged monitor sits dark behind it.
+
+## 2 | The Hospital
+N: The duplicate chart came back that morning. IT can't explain that. There's one new entry at the bottom, under my name. I didn't write it. It says, "Patient states he has been pressing the button for a long time, and no one came."
+N: I went back and counted the alarms I silenced that first night. There were eleven. The log on his call cord, from the night he died, shows he pressed it eleven times.
+P: 4
+V: Renee alone at the station at dawn, a printed call log in her hand. Behind her, the call panel. The amber 412 light is dark. Hold. It does not light.
+A: Medium from behind, the panel in soft focus over her shoulder
+M: Very slow push past her toward the panel
+L: Gray dawn through blinds, panel in shadow
+T: Guilt that will not resolve
+X: Paper trembling, chime memory echoing faintly in reverb, drone resolves downward
+I: {RENEE} sitting alone at a nurses' station at gray dawn holding a printed sheet, head bowed, the nurse call panel on the wall behind her with all lights dark
+D: Slow push-in past a seated nurse with her head bowed toward a dark call panel on the wall behind her.
+
+## 0 | Transition
+N: Renee still works nights. She says she answers every call light now, no matter what room it comes from.
+N: Our third story takes us to the edge of Chicago, to a building so big you could lose a person in it. And somebody did.
+P: 3
+V: The amber light, out of focus. Dissolve to an aerial of an enormous distribution park at night beside an interstate, rows of dock doors, the city glow on the horizon.
+A: Macro, then high aerial
+M: Slow aerial orbit
+L: Sodium-vapor orange lots, cold white dock lights
+T: Scale, anonymity
+X: Interstate traffic wash, distant train coupling, radio static bed begins
+I: aerial night view of {WH}, vast flat roofs and rows of loading docks under orange sodium lights, interstate with truck headlights beside it, faint Chicago skyline glow on the horizon
+D: Slow aerial orbit over an enormous warehouse complex at night; trucks crawl along the interstate beyond it.
+
+## 3 | The Security Guard
+N: Every door in Building C was locked from the outside. I know, because I'm the one who locked them. So whoever keyed the radio at 1:40 that morning was already inside with me.
+P: 2
+V: A gloved hand turns a key in a heavy dock door padlock. Cut to a handheld radio on a desk; its red transmit LED blinks once, by itself.
+A: Close-up on lock, then close-up on radio
+M: Static; slow push on the radio
+L: Hard dock light outside; dim booth light inside
+T: Locked in with something
+X: Padlock snap, then a single radio squelch click in silence
+I: close-up of a black handheld two-way security radio standing on a metal desk in a dim guard booth, small red LED lit, blurred wall of CCTV monitors behind it
+D: Slow push-in on a two-way radio on a desk; its red light blinks once on its own.
+
+## 3 | The Security Guard
+N: Name's Manny. I'm forty-four, and after twenty years of driving a forklift my back quit before I did, so I took a security job. Overnights at a distribution park southwest of Chicago. Four buildings. Mine was Building C: a million square feet of racking, forty feet high, full of patio furniture and dog food and whatever else people order at midnight.
+N: After second shift clocks out at twelve, it's one guard per building. You sit in a booth by the dock office with a wall of camera feeds, and every hour you walk a tour. Twenty-two checkpoints. You tap your wand on each one, and you radio it in to dispatch. "Checkpoint six, clear." It takes fifty minutes.
+V: Manny in the booth with a thermos. Then Manny dwarfed by towering racks, tapping a wand against a metal checkpoint plate and speaking into his shoulder mic.
+A: Medium in booth; extreme wide down an aisle with Manny tiny at the vanishing point
+M: Slow dolly forward down the aisle
+L: Booth monitors; warehouse on night setting, every third high-bay light on
+T: Vast, ordered emptiness
+X: Wand beep, radio squelch, boots on concrete, long reverb tail
+I: {MANNY} walking alone down an enormous warehouse aisle between forty-foot pallet racks at night, tiny in the frame, flashlight beam ahead of him, {WH} interior with only some high-bay lights on
+D: Slow dolly down a towering warehouse aisle following a lone security guard with a flashlight; the racks vanish into darkness above.
+
+## 3 | The Security Guard
+N: The guy who trained me was named Dale. He'd had Building C for six years. Two weeks after I started, he radioed dispatch at the end of his shift, said he was done, he was transferring out, and that was the last anybody saw of him. People quit like that in this business. I didn't think about it.
+V: An empty second chair in the booth. A faded duty roster with a name crossed out. A locker with a strip of tape, the name removed.
+A: Static close-ups
+M: Slow pan across the booth to the empty chair
+L: Monitor glow, deep shadows
+T: An absence nobody examined
+X: Chair creak, monitor hum, faint radio hiss
+I: empty worn office chair beside a second chair in a cramped warehouse security booth at night, wall of CCTV monitors, a clipboard duty roster hanging on the wall, coffee stains, nobody present
+D: Slow pan across a cramped security booth to an empty chair in front of glowing monitors.
+
+## 3 | The Security Guard
+N: The first strange thing was the radio. 1:40 in the morning, a click. Somebody pressing the talk button and letting go. Then again. I asked dispatch if they were calling me. They said no.
+N: The second thing was the motion sensors. They started tripping in order. Aisle twelve. Aisle thirteen. Aisle fourteen. Something moving down the building at walking speed, in the dark, in the spaces between cameras. Building C has blind spots. Every building does. The racks are too tall. There are whole aisles where the cameras only see the top of the freight.
+P: 2
+V: Alarm panel LEDs lighting one after another. The monitor wall: camera views that show only the tops of shrink-wrapped pallets, darkness below.
+A: Close-up on panel, then slow scan of the monitor wall
+M: Slow lateral track across monitors
+L: Red and amber LEDs, gray camera feeds
+T: Something patient moving where it cannot be seen
+X: Sensor beeps ascending in sequence, radio clicks, low pulse
+I: CCTV: high-angle warehouse camera view showing only the tops of shrink-wrapped pallets on tall racks, the aisle floor below lost in black shadow, night
+D: Slow track across a wall of warehouse security monitors while small red alarm lights on a panel light up one after another.
+
+## 3 | The Security Guard
+N: I brought it up to the day supervisor, and she pulled up a schedule and turned the screen around. The floor scrubber. It's a robot, about the size of a golf cart, and it runs itself between one and three. It trips the sensors. And the clicks, she said, were trucker radios bleeding over from the interstate.
+N: That night I went looking, and there it was, humming down aisle thirteen with its little orange light. I actually said "evening" to it. I felt like an idiot, and I felt a lot better.
+V: An autonomous floor scrubber gliding down a dark aisle, amber beacon rotating, leaving a wet stripe. Manny watches it pass, shakes his head, smiles.
+A: Low angle at floor level as the machine approaches
+M: Static as it passes, then slow pan to follow
+L: Rotating amber beacon sweeping the racks
+T: Comic relief, tension released
+X: Electric whir, brushes, water, Manny's short laugh echoing
+I: an autonomous robotic floor scrubber the size of a golf cart gliding down a dark warehouse aisle at night with a rotating amber beacon light, wet floor trail behind it, {MANNY} standing aside watching it with a relieved half-smile
+D: A robotic floor scrubber with a spinning amber light glides past the camera down a dark warehouse aisle as a guard watches and chuckles.
+
+## 3 | The Security Guard
+N: A week later I was on my one-thirty tour, coming up on checkpoint nine, and my radio said, "Checkpoint nine, clear."
+N: It was my voice.
+N: I hadn't said it. I hadn't even touched the wand to the plate yet. I stood there with my hand halfway up. Dispatch came back, "Copy nine." Like nothing was wrong.
+P: 2.5
+V: Manny's hand holding the wand inches from a checkpoint plate marked 9, frozen. His eyes drop to the radio on his shoulder.
+A: Close-up on hand and plate, rack to his face
+M: Static, then slow push-in on his face
+L: Flashlight spill, darkness all around
+T: The floor drops out
+X: Radio: Manny's own voice, slightly flat; squelch; dispatcher's casual reply; then dead air
+I: close-up of a security guard's hand holding a checkpoint wand frozen a few inches from a metal checkpoint plate on a warehouse rack upright, flashlight glow, {MANNY} out of focus looking down at his shoulder radio in shock
+D: A guard's hand stops just short of touching a checkpoint plate; he slowly looks down at the radio on his shoulder.
+
+## 3 | The Security Guard
+N: It kept happening. Always one checkpoint ahead of me. Ten. Eleven. My voice, my rhythm, even the little cough I do. Like something had been listening to me for weeks and wanted me to know it had me down.
+N: The scrubber was on its charger that night. I checked.
+V: Manny walking faster, glancing up into the racks. Checkpoint plates passing. The scrubber parked dark on its charging dock, beacon off.
+A: Tracking profile, upward POV into the racks, static on the scrubber
+M: Steady tracking, slow tilt up into black
+L: Flashlight only; green charging LED on the scrubber
+T: Mocked, studied
+X: Radio voice repeating ahead of him, a recorded-sounding cough, footsteps quickening
+I: low-angle point-of-view looking straight up between forty-foot warehouse pallet racks into darkness at night, flashlight beam fading before it reaches the top, shrink-wrapped pallets looming
+D: Slow tilt upward between towering warehouse racks; a flashlight beam climbs the pallets and dissolves into darkness.
+
+## 3 | The Security Guard
+N: I followed the sensor trips back to where they started, deep in the forties, the worst blind spot in the building. Somebody had been moving pallets. They'd built walls with them, three high, into a kind of room. I squeezed in with my flashlight.
+N: There was a folding chair. A thermos. And a gap between two pallets, right at eye level for somebody sitting down. I sat down. I looked through it. Two hundred yards away, perfectly framed, was the window of my booth. My chair. My coffee.
+P: 2
+V: A crude enclosure of stacked empty pallets between racks. Inside: folding chair, old thermos. POV through a slot between pallets: far away, the bright window of the guard booth.
+A: Wide of the enclosure, then POV through the gap
+M: Slow push through the entrance; slow focus pull to the distant booth
+L: Flashlight inside; the booth a tiny bright rectangle in blackness
+T: He has been the one being watched
+X: Pallet wood creak, breath, distant booth radio murmuring
+I: point-of-view through a narrow gap between stacked wooden pallets inside a dark warehouse, far in the distance a small brightly lit security booth window with an empty chair and a coffee cup, everything else black
+D: Through a slot between wooden pallets, focus slowly pulls to a tiny lit guard booth far across a dark warehouse.
+
+## 3 | The Security Guard
+N: On the floor under the chair there was a radio. Company issue. It had a strip of tape on the back with a name in marker. Dale.
+N: That's when the radio in my hand came on. My voice again. It said, "Building C, all secure. Nobody here but me." And then, from somewhere above me, up in the racks, I heard it say the same thing without the radio.
+P: 3
+V: Flashlight finds a dusty radio under the chair, masking tape on its back. Manny's face. He slowly looks up. The racks above: only darkness, one shrink-wrap sheet moving.
+A: Close-up insert, then low angle on Manny looking up, then his POV
+M: Slow tilt following his gaze upward
+L: Flashlight beam shaking slightly; black above
+T: Peak dread; the thing is never shown
+X: Radio voice, then the same sentence unamplified from high above with natural reverb; plastic wrap rustle
+I: {MANNY} crouched inside an enclosure of stacked pallets in a dark warehouse, holding a flashlight, looking straight up with fear, a dusty old two-way radio on the concrete floor beside a folding chair
+D: A crouching guard slowly raises his eyes and flashlight toward the darkness above the racks; a loose sheet of plastic wrap stirs high up.
+
+## 3 | The Security Guard
+N: I didn't run. I walked, fast, the way you walk away from a dog. I went out the dock door, got in my truck, and I drove home. I never called it in. I never went back.
+N: Nobody ever called me about it, either. Not that night. Not that week. I finally called dispatch myself to explain, and the woman on the phone was confused. She said, "Manny, you checked in an hour ago. You've checked in every night."
+P: 2
+V: Manny striding down the main aisle without looking back, pushing out a dock door into cold air, his pickup's taillights leaving. Later, Manny at a kitchen table on the phone, face going slack.
+A: Front tracking shot, wide exterior, medium interior
+M: Backward tracking in front of him; static kitchen
+L: High-bays, then orange lot lights, then a dim kitchen lamp
+T: Escape that isn't one
+X: Fast boots, dock door slam, engine, then a phone voice, tinny and cheerful
+I: {MANNY} sitting at a small kitchen table at night holding a phone to his ear, wearing a flannel shirt instead of his uniform, staring blankly ahead, single overhead lamp
+D: A middle-aged man at a kitchen table listens to a phone; his expression slowly empties as he lowers it from his ear.
+
+## 3 | The Security Guard
+N: That was in March. I work days now, at a hardware store. But every other Friday, a paycheck from the security company still lands in my account. As far as they know, I've never missed a shift.
+N: And I think about Dale, radioing in to say he was transferring out. Nobody saw him leave. They just heard him say so. I looked, by the way. His truck's still in the back lot of Building C.
+P: 4
+V: A phone screen showing a deposit notification (add in post). Then the rear lot of Building C: an older pickup under a dusting of snow, flat tire, weeds through the asphalt around it.
+A: Insert, then wide static of the truck with the building looming behind
+M: Slow push-in on the truck
+L: Overcast dusk, one lot light buzzing on
+T: Quiet, permanent
+X: Wind across the lot, a faint radio squelch from nowhere, drone fades
+I: an older pickup truck abandoned at the far edge of a huge warehouse back parking lot at dusk, light snow on the windshield, one flat tire, weeds growing around the tires, massive windowless warehouse wall behind it
+D: Slow push-in on an abandoned snow-dusted pickup truck in an empty warehouse lot as a single lot light flickers on.
+
+## 0 | Transition
+N: If you ever take a security job outside Chicago, and they tell you the last guy is still on the schedule... maybe ask to meet him.
+N: Story four. A roadside hotel in the Nevada desert, and a guest who has been very, very patient.
+P: 3
+V: Dissolve from the snowy lot to an empty desert highway at night. A neon hotel sign approaches, one letter dead.
+A: Driver's POV through a windshield
+M: Steady forward drive
+L: Headlights, then pink-red neon
+T: Heat-haze quiet, old Americana
+X: Tires on asphalt, radio static sliding into a faint old ballad, neon buzz
+I: driver's point-of-view through a windshield on an empty Nevada desert highway at night approaching {HOTEL}, glowing vintage neon sign with one letter burned out, a few lit windows
+D: Driving slowly along an empty desert highway at night toward an old roadside hotel with a flickering neon sign.
+
+## 4 | The Hotel
+N: The phone at our front desk has a button for every room in the hotel. Thirty-six rooms, thirty-six buttons. The call that night came in on a line that doesn't have one.
+P: 2
+V: An old multi-line desk phone with rows of labeled buttons. It rings. No button is lit. A hand hovers over the handset.
+A: Top-down close-up
+M: Slow push-in
+L: Green banker's lamp pool on dark wood
+T: Polite impossibility
+X: Old electronic phone ring, lobby clock ticking, ice machine rumble
+I: top-down close-up of a 1980s beige multi-line hotel front desk telephone with rows of room buttons on a dark wood counter under a green banker's lamp, a woman's hand hovering above the handset
+D: Slow push-in on an old hotel desk phone as it rings; a woman's hand hesitates above the handset.
+
+## 4 | The Hotel
+N: I'm Tess. I was the night auditor at the Desert Crown Hotel for almost three years. It's in Calder Wells, Nevada, which is a gas station, a bar, and us, on a highway where you can drive an hour without seeing another car. The hotel was built in 1954. Three floors, one elevator, a neon sign that's been missing a letter since before I got there.
+N: Night audit is a paperwork job. Eleven to seven. You close out the day's charges, run the reports, set out the coffee. The loudest thing in the building was the ice machine.
+V: Exterior of the hotel under stars. Inside, Tess at the desk with a ledger and adding machine, a dim lobby of worn carpet, key cubbies, an old brass-doored elevator.
+A: Wide exterior, then wide lobby from across the room
+M: Slow dolly-in across the lobby
+L: Neon spill through the windows, warm tungsten lamps, dark corners
+T: Faded mid-century loneliness
+X: Adding machine, pen scratch, ice machine dropping cubes, desert wind
+I: {TESS} working alone at the front desk of {HOTEL} lobby at night, worn patterned carpet, wall of brass room-key cubbies, old elevator with brass doors in the background, warm lamp light and pink neon glow through the windows
+D: Slow dolly across a dim vintage hotel lobby toward a woman working alone at the front desk; neon light pulses faintly through the windows.
+
+## 4 | The Hotel
+N: So the phone rang at 2:30, and the display said 313. A man's voice. Older, soft, good manners. He said, "Sorry to trouble you, miss. Could I have a few more towels sent up to 313?" I said of course. I'd hung up before it hit me. Our third floor goes from 301 to 312.
+N: I took the towels up anyway. The hallway ends at room 312 and a linen closet. I left the towels on the closet shelf, mostly so I could say I did something.
+V: Tess on the phone, nodding, hanging up, then pausing mid-motion. Third-floor hallway: she walks to its end carrying towels. Door 312, then a plain linen closet door. Dead end.
+A: Medium on Tess; long hallway shot from behind her
+M: Slow follow down the hallway
+L: Yellowed wall sconces, patterned carpet, darkness pooling at the end
+T: A corridor that feels too short
+X: Soft male voice on a phone line, carpeted footsteps, closet door latch
+I: {TESS} seen from behind carrying a stack of white towels down a narrow 1950s hotel hallway at night, yellowed wall sconces, patterned carpet, the hallway ending at a plain linen closet door
+D: Follow a woman carrying white towels down a dim old hotel hallway toward a dead end with a closet door.
+
+## 4 | The Hotel
+N: He called the next night. He wanted a wake-up call for 4:40. And he asked, "Has my wife checked in yet? She's driving up from Barstow." I told him no one had checked in. He said, "That's all right. She's always late."
+P: 2
+V: Tess writing "313 - 4:40" on a notepad, then looking at the empty lobby doors and the dark highway beyond.
+A: Insert on notepad, then her POV toward the glass doors
+M: Slow push toward the doors
+L: Lamp on paper; black glass reflecting the lobby
+T: Tender and wrong
+X: Phone line hiss, the gentle voice, pencil on paper
+I: view from behind a hotel front desk toward glass lobby doors at night, the dark empty desert highway beyond, reflection of the warm lobby and {TESS} faintly visible in the glass
+D: Slow push toward glass hotel lobby doors at night; nothing outside but an empty road, the lobby reflected in the glass.
+
+## 4 | The Hotel
+N: I asked the owner about it. Mr. Abbott's in his seventies, he's owned the place forever, and he just sighed. He said the phone system was older than me, and extension 313 was a house phone in the third-floor linen closet, for housekeeping. And he said the maintenance man, Gus, thought he was funny.
+N: I went up and looked. Sure enough, there was an old beige phone on the closet wall, and the handset was off the hook, swinging a little. I hung it up. Mystery solved. I even told Gus it was a good one. He looked at me like he didn't know what I was talking about.
+V: Mr. Abbott at the desk in morning light, waving a hand. Then the linen closet: shelves of sheets, a wall phone with the handset dangling and swaying. Tess hangs it up, smiling at herself.
+A: Medium two-shot; close-up on the swinging handset
+M: Static; slight tilt following the handset's swing
+L: Bright desert morning in the lobby; bare bulb in the closet
+T: Explained away, almost
+X: Coffee cup, a tired sigh, handset cord creaking, receiver click
+I: inside a cramped hotel linen closet with shelves of folded white sheets, an old beige wall-mounted telephone with its handset hanging off the hook by a coiled cord, bare bulb overhead
+D: In a linen closet, a phone handset dangles from an old wall phone, swinging slowly on its coiled cord.
+
+## 4 | The Hotel
+N: The calls didn't stop. And the towels were gone from the shelf.
+N: Then I started noticing the elevator. Around 2:30 every night, with nobody in the lobby, it would start up on its own. I'd watch the numbers. Two. Three. It would stop on three, and I'd hear the doors open, and they'd stay open, way too long. Like someone was holding them for somebody.
+P: 2
+V: An empty closet shelf. The lobby elevator: a brass floor indicator needle sweeping from 1 to 2 to 3. Third floor: the doors stand open on an empty lit car, nobody in the hall.
+A: Close-up on the indicator, then wide hallway facing the open elevator
+M: Slow push-in on the indicator; static hallway
+L: Brass highlights, elevator interior the brightest thing in the hall
+T: Courtesy extended to no one
+X: Motor hum, cable whine, a mechanical bell, doors rolling open, long silence
+I: old hotel third-floor hallway at night, vintage elevator doors standing open on an empty brightly lit elevator car with wood paneling, nobody in the hallway, light spilling onto patterned carpet
+D: Static shot of an empty hotel hallway; elevator doors slide open on an empty car and stay open far too long.
+
+## 4 | The Hotel
+N: There's a photograph in our lobby, by the brochure rack. The hotel on opening day, 1954. One night I actually looked at it. I counted the windows on the third floor. Seven on the east side. I went out to the parking lot at three in the morning and counted again. Six.
+N: The old registration books are in the basement, in boxes. It took me two nights. June 1962. Mr. Walter Pruitt, of Barstow, California. Room 313. Party of two. There's a check-in date. The line for check-out is blank.
+P: 2
+V: A framed black-and-white photo of the hotel; Tess's finger counting windows. Tess in the parking lot looking up: where a seventh window would be, slightly newer brick. Basement: a ledger open under a flashlight.
+A: Close-up on photo, low angle exterior, top-down on ledger
+M: Slow push-in on each
+L: Lobby lamp; neon and moonlight outside; flashlight in the basement
+T: The building has been lying
+X: Glass tap of a fingernail, night wind, brittle pages turning
+I: framed black-and-white 1954 photograph of a three-story roadside hotel on opening day hanging on a wood-paneled lobby wall, classic cars parked out front, a woman's finger touching the glass counting the third-floor windows
+D: Slow push-in on a framed vintage photograph of a hotel as a finger moves along the top-floor windows, counting.
+
+## 4 | The Hotel
+N: He called that night for his wake-up call, same as always. And I decided to do it. At 4:40 I picked up the phone and dialed 313.
+N: I heard it ring in my ear. And I heard it ring upstairs. Faint, through the ceiling, not from the closet. From past it.
+N: He picked up. He said, "Thank you, miss. Is it morning?" I said yes, almost. He was quiet for a second. Then he said, "It doesn't look like morning. They took my window."
+P: 3
+V: Lobby clock at 4:40. Tess dialing, handset to her ear, eyes rising slowly to the ceiling. Hold on her face as she listens.
+A: Close-up on clock, then medium close-up on Tess, slightly high angle
+M: Very slow push-in as her eyes go up
+L: Single desk lamp; ceiling in shadow
+T: Contact
+X: Ring in the earpiece and a second, muffled ring from above, slightly out of sync; the soft voice
+I: medium close-up of {TESS} at a hotel front desk at night holding an old phone handset to her ear, eyes raised toward the ceiling, lips parted, green lamp light on her face
+D: A woman holding a phone to her ear slowly raises her eyes to the ceiling and stops breathing for a moment.
+
+## 4 | The Hotel
+N: Mr. Abbott came in when I called him. He didn't sigh this time. He told me his father closed off the end of the third floor in 1971, after a problem with the roof. Cheaper to wall it up than fix it. He'd honestly forgotten there was a room back there. We emptied the linen closet, and Gus took the back wall down with a pry bar.
+N: There was a door behind it. Brass numbers. 313.
+P: 2.5
+V: Shelves pulled out of the closet. Gus prying away plaster and lath; dust billows. Through the hole, a dark wood door with tarnished brass numerals.
+A: Over-the-shoulder into the closet, then close-up on the numerals
+M: Slow push through the broken wall
+L: Work light, dust in the beam
+T: Excavation
+X: Pry bar, plaster cracking, coughing, then stillness
+I: view through a ragged hole broken in a plaster and lath wall at the back of a hotel linen closet, revealing an old dark wooden hotel room door with tarnished brass numbers, dust hanging in a work light beam
+D: Dust swirls in a work light as the camera pushes slowly through a broken plaster wall toward an old hidden door.
+
+## 4 | The Hotel
+N: The room was small and dark and it smelled like a closed book. One bed, made. A nightstand, with a phone. The window was bricked over from the outside. Nobody in it. No sign anybody had been in it for fifty years.
+N: Except for the bed. Stacked at the foot of it, folded, were six white towels. They had our laundry tags on them. This year's.
+N: He didn't call after that. For about a week, I thought that was the end of it.
+P: 3
+V: A sealed 1960s hotel room by flashlight: faded bedspread, rotary phone, bricked window. The beam lands on a neat stack of bright white towels, shockingly clean against the dust.
+A: Wide from the doorway, then close-up on the towels
+M: Slow flashlight pan, slow push-in on the towels
+L: Flashlight only, dust motes
+T: Proof
+X: Door hinge groan, stale air, a single faint phone "ting"
+I: sealed-off 1960s hotel room discovered by flashlight, dusty faded bedspread on a made bed, rotary telephone on a nightstand, window bricked shut, and a neat stack of six clean bright white towels at the foot of the bed
+D: A flashlight beam moves across a dusty sealed hotel room and stops on a stack of perfectly clean white towels on the bed.
+
+## 4 | The Hotel
+N: Then one morning, a little before five, a woman came into the lobby. Sixties, maybe. Headscarf, small suitcase, dusty, like she'd been driving all night. She said she was terribly late, and she was meeting her husband. I asked the name. She said Pruitt.
+N: And I heard myself say, "Room 313. Third floor." She smiled and got in the elevator. I watched the numbers. Two. Three. The doors opened, and this time they closed right away.
+P: 2
+V: A woman in a 1960s traveling coat and headscarf at the desk, seen mostly from behind and in soft focus. She crosses to the elevator. The indicator climbs to 3.
+A: Over Tess's shoulder; the woman's face never clearly seen
+M: Slow pan following her to the elevator, tilt up to the indicator
+L: Pre-dawn blue in the windows, warm lamps
+T: Gentle, dreamlike, deeply off
+X: Lobby door, soft heels, suitcase set down, elevator bell
+I: a woman in her sixties wearing a 1960s traveling coat and a silk headscarf, holding a small vintage suitcase, seen from behind walking toward a brass-doored elevator in a dim vintage hotel lobby before dawn, {TESS} watching from the desk in the foreground
+D: A woman in a headscarf carrying a small suitcase walks away from the camera across a dim hotel lobby and steps into an old elevator.
+
+## 4 | The Hotel
+N: She never came down. There was no car in the lot. And on the lobby camera, I'm standing at the desk, talking, and smiling, and pointing at the elevator. There's nobody else in the frame.
+N: I gave my notice that week. People tell me it's a sweet story. He was waiting, and she came. Maybe. But I'm the one who gave her the room number. And I still don't know what I sent up there.
+P: 4
+V: Lobby security footage: Tess alone at the desk, gesturing warmly toward the elevator at empty air. Then the real hallway on three: the hole in the closet wall, door 313 beyond it, now closed.
+A: High CCTV angle, then straight-on hallway shot
+M: Locked-off; slow push toward the closed door
+L: CCTV wash; hallway sconces, darkness in the broken wall
+T: Lingering doubt
+X: CCTV hum, faint old ballad from behind a wall, door latch clicking shut
+I: CCTV: high-angle hotel lobby security camera view, a woman with auburn hair in a green cardigan standing alone behind the front desk smiling and pointing toward an elevator, nobody else in the lobby
+D: Security footage of a hotel clerk alone at a front desk, smiling and gesturing toward the elevator as if speaking to someone who is not there.
+
+## 0 | Transition
+N: The Desert Crown is still open. Thirty-seven rooms now, though they only rent thirty-six.
+N: One story left. And this one doesn't happen inside a building at all. It happens on a road in the Colorado mountains that the county says isn't there.
+P: 3
+V: The neon sign flickers. Dissolve to a mountain highway winding through black pine forest, a single pair of headlights far below.
+A: Close-up on neon, then high aerial
+M: Slow aerial follow of the headlights
+L: Neon; cold moonlight on snow-patched peaks
+T: Open wilderness, a different kind of alone
+X: Neon buzz crossfading to mountain wind, a distant engine
+I: aerial night view of a narrow two-lane highway switchbacking through dense dark pine forest in the Colorado mountains, a single pair of headlights from a white cargo van far below, moonlit peaks, low mist in the valleys
+D: Slow aerial shot following one pair of headlights along a winding mountain road through dark forest.
+
+## 5 | The Delivery Driver
+N: The last stop on my route that night was 4 Harrow Creek Road. One small box, signature required. I found out later the county took Harrow Creek Road off the map in 1987.
+P: 2
+V: A small parcel wrapped in brown paper and string on a van's passenger seat, dashboard glow on it. Beyond the windshield, headlights on fog.
+A: Close-up from the driver's side
+M: Slow push-in, slight road vibration
+L: Dashboard green and amber, white fog outside
+T: An ordinary object that is not
+X: Engine idle, wipers, a scanner chirp
+I: small parcel wrapped in brown paper and tied with old-fashioned string sitting on the passenger seat of a cargo van at night, lit by dashboard glow, thick fog in the headlights through the windshield
+D: Slow push-in on a small brown-paper parcel on a van's passenger seat, gently vibrating with the engine, fog drifting past the windshield.
+
+## 5 | The Delivery Driver
+N: My name's Eli. I'm twenty-nine, and I drive a cargo van for a regional courier out of Montrose, Colorado. Night route. Pharmacy totes, machine parts, lab samples, anything that has to be somewhere in the mountains by morning. Route nine. A hundred and eighty miles of two-lane road, switchbacks, and towns with one stoplight.
+N: You get used to it. You learn where the elk cross and where the ice sits. You learn which stretches have cell service, which is almost none of them. Everything runs off the scanner, this handheld that holds your stops and your map and talks to the depot whenever it can find a signal.
+V: Eli driving, relaxed, one hand on the wheel. A sleeping mountain town with a single blinking stoplight. Elk eyes shining at the roadside. The handheld scanner in its dash cradle.
+A: Profile close-up on Eli, windshield POV, insert on scanner
+M: Gentle in-cab handheld, steady forward POV
+L: Dash glow, passing streetlight sweeps, headlights
+T: Competent solitude
+X: Road noise, heater fan, tote bins shifting, soft scanner beeps
+I: {ELI} driving {VAN} at night, profile view from the passenger side, relaxed and tired, a rugged handheld delivery scanner in a dashboard cradle, dark mountain road through the windshield
+D: Profile shot of a young delivery driver at the wheel at night, passing lights sweeping across his face, a scanner glowing on the dash.
+
+## 5 | The Delivery Driver
+N: That night I finished my last stop at 11:40. I was thinking about a burrito. And the scanner chirped. New stop added. 4 Harrow Creek Road. One parcel. Signature required.
+N: Here's the thing. There was a box in the back of my van I didn't remember loading. Small, plain, brown paper, old-fashioned string. The label was typed. It matched.
+V: Van parked outside a dark small-town pharmacy. Eli opens the rear doors: empty shelving, and one small parcel alone on the floor. He picks it up, turns it over.
+A: Wide exterior, then from inside the cargo area looking out at Eli
+M: Static; slow push toward the parcel
+L: Cargo dome light, red taillight glow, a streetlamp
+T: The route should be over
+X: Scanner chirp, rear door latch, paper crinkle, a dog barking far off
+I: view from inside the empty cargo area of a delivery van at night looking out the open rear doors at {ELI} standing outside, a single small brown-paper parcel alone on the van floor in the foreground, red taillight glow
+D: From inside an empty van cargo bay, a driver opens the rear doors and stares at a single small parcel on the floor.
+
+## 5 | The Delivery Driver
+N: I got one bar and called my dispatcher, Shonda. She was half asleep. She said it happens all the time out there, some cabin on an old plat address the system can't place properly, somebody at the depot adds it late and forgets to tell you. She said, "Just follow the scanner, get the signature, go home." It was a reasonable thing to say.
+V: Eli standing in the road holding his phone high, then talking, shrugging, climbing back in. The scanner's map draws a route line into the mountains.
+A: Wide of Eli small against the dark, then insert on the scanner
+M: Slow push-in; static insert
+L: Phone screen on his face, hazard lights blinking amber
+T: Reasonable people making a reasonable mistake
+X: Sleepy phone voice, hazard-light click, van door
+I: {ELI} standing beside {VAN} on an empty mountain road at night holding a phone up searching for signal, amber hazard lights blinking, dark pine forest on both sides
+D: A delivery driver stands on a dark mountain road holding his phone up for signal while the van's hazard lights blink.
+
+## 5 | The Delivery Driver
+N: The scanner took me nine miles up the highway and then told me to turn left where there wasn't a road. Except there was. A gap in the trees. A Forest Service gate, standing open, with a chain hanging off it that had rusted through. The dirt past it was smooth. No washouts. No weeds. Like somebody drove it every day.
+P: 2
+V: Headlights swing onto a gap in the pines. A rusted steel pipe gate stands open, a broken chain hanging. Beyond it, a smooth dirt road into darkness.
+A: Windshield POV, then low angle on the chain as the van passes
+M: Slow forward creep through the gate
+L: Headlights only, hard shadows from the gate bars
+T: Threshold
+X: Tires leaving pavement for dirt, chain tapping the gatepost, engine low
+I: driver's point-of-view through a van windshield at night of an old rusted Forest Service pipe gate standing open at the entrance to a smooth dirt road into dense pine forest, a broken rusted chain hanging from the gate, headlight beams
+D: Slow forward drive through an open rusted forest gate onto a dirt road; a broken chain swings gently as the headlights pass.
+
+## 5 | The Delivery Driver
+N: The fog started about a mile in. Headlights just made a white wall. On the scanner, the little arrow that was me slid off the last road on the map and kept going, across nothing. Plain gray screen. The distance to my stop said 0.4 miles. I drove for twenty minutes, and it said 0.4 miles.
+N: I would've turned around. I want that on the record. But the road was one lane with a drop on the right, and you can't turn a van around on that. You can only go where it goes.
+V: Fog swallowing the headlights. The scanner: an arrow moving across blank gray (screen content added in post). The road edge on the right falling away into fog. Eli gripping the wheel.
+A: Windshield POV, scanner insert, side-window view of the drop, close on Eli's hands
+M: Slow forward creep; everything slightly too slow
+L: White-out headlight bloom, gray-green dash light
+T: Committed, claustrophobic in open air
+X: Engine in low gear, gravel ticking, scanner recalculating tone, muffled silence of fog
+I: driver's point-of-view through a windshield on a narrow one-lane mountain dirt road at night in extremely dense fog, headlights forming a white wall, the right edge of the road dropping away into fog, pine trunks barely visible on the left
+D: Creeping forward on a narrow mountain road in dense fog; the headlights reveal only a few feet of dirt and a sheer edge on the right.
+
+## 5 | The Delivery Driver
+N: Then the trees opened up and there was a house. Two stories, white, porch light on. Lights on upstairs. It looked nice, actually. That's what bothered me. Out there, in that fog, it should not have looked nice.
+P: 2
+V: The fog thins to reveal a tidy white two-story farmhouse in a clearing, warm porch light, lit upstairs windows, fog wrapped around its base.
+A: Wide from the van's position, slightly low
+M: Slow push-in as the van rolls to a stop
+L: Warm yellow windows against blue-gray fog
+T: Wrongly welcoming
+X: Engine off, ticking metal, absolute quiet, a porch light moth
+I: a neat white two-story farmhouse in a clearing in dense mountain pine forest at night, warm porch light on, upstairs windows glowing yellow, thick fog around its base, seen from a dirt road, unsettlingly well kept
+D: Fog parts slowly to reveal a tidy white farmhouse with warm lit windows deep in a dark forest.
+
+## 5 | The Delivery Driver
+N: I got the box and walked up. And I saw the porch. It was covered in packages. Dozens. Stacked along the railing, piled by the door, some of them so old the cardboard had gone soft and gray. Every one I could read said signature required. None of them had been opened.
+N: And past the porch, back in the trees, there were vans. Five or six, nosed into the brush. A new one like mine. An old boxy one with our company's logo from before I worked there. One so far gone there was a tree growing through the hood.
+P: 2.5
+V: Eli at the porch steps with the parcel. The porch crowded with weathered, unopened packages. His flashlight drifts to the tree line: delivery vans of different decades abandoned in the brush.
+A: Low angle up the steps, then slow reveal past the porch corner
+M: Slow lateral dolly from porch to trees
+L: Warm porch light, cold flashlight beam through fog
+T: He is not the first
+X: Boots on wood steps, soggy cardboard, wind in pines, a van door creaking somewhere
+I: several abandoned delivery cargo vans from different decades nosed into brush among pine trees at night in fog, one modern white van, one boxy 1980s van, one rusted 1970s van with a young tree growing through its hood, lit by a single flashlight beam
+D: A flashlight beam slides off a porch stacked with old unopened packages and finds a row of abandoned delivery vans in the foggy trees.
+
+## 5 | The Delivery Driver
+N: The front door opened. Not all the way. There was nobody in the gap, just the light from inside, warm and yellow. And I heard a floorboard. One step, toward the door, from someone who weighed a lot.
+N: The scanner chirped in my hand. I looked down. It said DELIVERED. And in the signature box, a name was writing itself. Slowly. In neat cursive.
+P: 3
+V: The front door ajar by a hand's width, warm light in the gap, nothing visible inside. Eli's face lit from below by the scanner. He sets the box down without looking up.
+A: Straight-on on the door, then close-up on Eli looking down
+M: Extremely slow push toward the gap; static on Eli
+L: Warm slit of light; cool scanner glow
+T: Do not look up
+X: Door hinge, one heavy floorboard creak, scanner chirp, stylus-like scratching
+I: close-up of an old white farmhouse front door open only a few inches at night, warm yellow light spilling through the gap, nothing visible inside, weathered packages stacked on the porch beside it, fog
+D: Extremely slow push-in on a front door standing slightly ajar, warm light in the gap; the door moves a fraction of an inch.
+
+## 5 | The Delivery Driver
+N: I put the box on the top step, and I did not look up again. I backed that van down the mountain in the fog with my door open so I could see the edge. It took until sunrise. When I hit the highway, the gate behind me was shut, and the chain was whole.
+N: At the depot, nobody had added a stop. There was no record of the parcel. Shonda didn't remember my call. But the signature was still on my scanner. R. Tolliver.
+V: The van reversing through fog, driver's door open, Eli leaning out. Dawn on the highway: the gate closed, chain intact. Then a fluorescent-lit depot, Eli holding out the scanner to a puzzled dispatcher.
+A: Rear three-quarter on the van, static on the gate, medium two-shot
+M: Slow pull-back with the reversing van; static
+L: Red reverse lights in fog, pink-gray dawn, flat depot fluorescents
+T: Out, but not finished
+X: Reverse gear whine, gravel, dawn birds, depot roll-door, confused murmur
+I: old rusted Forest Service pipe gate closed and secured with an intact chain and padlock across an overgrown forest track at dawn, pink-gray light, mist, a white cargo van's side mirror in the foreground
+D: At dawn, a rusted forest gate stands closed and chained across an overgrown track as mist drifts through the trees.
+
+## 5 | The Delivery Driver
+N: There's a plaque in our break room. I'd eaten lunch under it for two years without reading it. Ray Tolliver. Driver. Missing since November 1994. Route nine.
+N: The scanner takes a photo for every delivery. Proof it got there. I didn't look at mine for a month. It shows the porch. The box on the step. And in the dark window next to the door, there are faces. Six, maybe seven. Close together, looking out. They're all wearing the uniform.
+P: 3
+V: A small brass plaque above a microwave in a break room (engraving added in post). Then the delivery photo full-frame: porch, parcel, and a dark window in which pale indistinct faces crowd together.
+A: Close-up on plaque, then slow zoom into the photo's window
+M: Slow push-in; digital zoom on the photo
+L: Flat break room light; harsh flash-photo look
+T: The true final image
+X: Microwave hum, then silence; a low choir-like drone enters as the zoom lands
+I: harsh flash photograph of a farmhouse porch at night with a small brown-paper parcel on the top step, and in the dark window beside the door several pale indistinct faces of people in delivery uniforms pressed close together looking out, slightly blurred, unsettling but not gory
+D: Slow zoom into a flash photograph of a porch toward a dark window where pale blurred faces are gathered, looking out.
+
+## 5 | The Delivery Driver
+N: They retired route nine after that. I drive days now, in town. But I kept the scanner, and every night at 11:40, it chirps. New stop added. I've never pressed accept.
+N: Last week, though, the screen changed. It doesn't say one parcel anymore. It says one driver.
+P: 4
+V: A dark bedroom. The scanner on a nightstand lights up, illuminating Eli awake in bed, staring at it. He doesn't reach for it.
+A: Close-up on the scanner in foreground, Eli soft in the background
+M: Slow rack focus from scanner to Eli's open eyes
+L: Scanner screen only
+T: It is still asking
+X: One scanner chirp, a bedside clock, long silence
+I: a rugged handheld delivery scanner glowing on a nightstand in a dark bedroom at night, {ELI} lying awake in bed in the background staring at it, lit only by the screen
+D: A scanner on a nightstand lights up in a dark bedroom; focus shifts to a man lying awake, staring at it without moving.
+
+## 0 | Closing
+N: Five workers. Five shifts that didn't end the way they were supposed to.
+N: None of it happened. That's the comfortable part. The uncomfortable part is that tonight, right now, there really is somebody alone at a register on an empty highway. Somebody walking a dark hallway with a clipboard. Somebody watching a wall of cameras, hoping every square stays empty.
+N: Most of them will have a quiet night. Most of them.
+N: If you're one of them... check the monitor. Answer the call light. And if a new stop shows up on your route after midnight, don't press accept.
+N: Thanks for listening. Sleep well.
+P: 6
+V: Reprise of the five locations, each now with one small change: the gas station monitor glowing, the amber call light on, the guard booth empty, the elevator doors open, the farmhouse porch light in fog. End on the wall clock from the title card reading 3:17, then cut to black.
+A: Wide statics matching the cold open framings
+M: Very slow pull-back on each; final static on the clock
+L: Same practical sources as the cold open, slightly dimmer
+T: Circular, unresolved calm
+X: Each location's signature sound in turn (buzz, chime, squelch, elevator bell, scanner chirp), then clock tick and silence
+I: wide shot of an empty convenience store interior at night seen from outside through the front window, nobody at the register, a small security monitor glowing behind the counter, fluorescent light spilling onto an empty parking lot
+D: Very slow pull-back from the window of an empty gas station store at night; a monitor glows behind the unattended counter.
